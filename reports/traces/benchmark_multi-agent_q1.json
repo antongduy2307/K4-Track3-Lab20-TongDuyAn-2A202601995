@@ -1,0 +1,150 @@
+[
+  {
+    "name": "supervisor.route",
+    "payload": {
+      "route": "researcher",
+      "iteration": 1,
+      "errors": 0
+    }
+  },
+  {
+    "name": "agent.supervisor.span",
+    "payload": {
+      "name": "agent.supervisor",
+      "attributes": {},
+      "duration_seconds": 4.0299999909620965e-05
+    }
+  },
+  {
+    "name": "researcher.done",
+    "payload": {
+      "num_sources": 5,
+      "notes_chars": 975
+    }
+  },
+  {
+    "name": "agent.researcher.span",
+    "payload": {
+      "name": "agent.researcher",
+      "attributes": {},
+      "duration_seconds": 2.6151488999998946
+    }
+  },
+  {
+    "name": "supervisor.route",
+    "payload": {
+      "route": "analyst",
+      "iteration": 2,
+      "errors": 0
+    }
+  },
+  {
+    "name": "agent.supervisor.span",
+    "payload": {
+      "name": "agent.supervisor",
+      "attributes": {},
+      "duration_seconds": 3.1399999897985253e-05
+    }
+  },
+  {
+    "name": "analyst.done",
+    "payload": {
+      "analysis_chars": 1531
+    }
+  },
+  {
+    "name": "agent.analyst.span",
+    "payload": {
+      "name": "agent.analyst",
+      "attributes": {},
+      "duration_seconds": 5.7567676999997275
+    }
+  },
+  {
+    "name": "supervisor.route",
+    "payload": {
+      "route": "writer",
+      "iteration": 3,
+      "errors": 0
+    }
+  },
+  {
+    "name": "agent.supervisor.span",
+    "payload": {
+      "name": "agent.supervisor",
+      "attributes": {},
+      "duration_seconds": 9.500000032858225e-06
+    }
+  },
+  {
+    "name": "writer.done",
+    "payload": {
+      "answer_chars": 4035
+    }
+  },
+  {
+    "name": "agent.writer.span",
+    "payload": {
+      "name": "agent.writer",
+      "attributes": {},
+      "duration_seconds": 6.683554100000038
+    }
+  },
+  {
+    "name": "supervisor.route",
+    "payload": {
+      "route": "critic",
+      "iteration": 4,
+      "errors": 0
+    }
+  },
+  {
+    "name": "agent.supervisor.span",
+    "payload": {
+      "name": "agent.supervisor",
+      "attributes": {},
+      "duration_seconds": 1.159999965238967e-05
+    }
+  },
+  {
+    "name": "critic.done",
+    "payload": {
+      "citation_coverage": 1.0,
+      "dangling": []
+    }
+  },
+  {
+    "name": "agent.critic.span",
+    "payload": {
+      "name": "agent.critic",
+      "attributes": {},
+      "duration_seconds": 4.709999984697788e-05
+    }
+  },
+  {
+    "name": "supervisor.route",
+    "payload": {
+      "route": "done",
+      "iteration": 5,
+      "errors": 0
+    }
+  },
+  {
+    "name": "agent.supervisor.span",
+    "payload": {
+      "name": "agent.supervisor",
+      "attributes": {},
+      "duration_seconds": 8.300000445160549e-06
+    }
+  },
+  {
+    "name": "workflow.done",
+    "payload": {
+      "name": "workflow.run",
+      "attributes": {
+        "query": "When should a team use a multi-agent architecture instead of a single agent for complex research tasks?"
+      },
+      "duration_seconds": 15.06755430000021
+    }
+  }
+]

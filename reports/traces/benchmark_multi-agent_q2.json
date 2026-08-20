@@ -1,0 +1,150 @@
+[
+  {
+    "name": "supervisor.route",
+    "payload": {
+      "route": "researcher",
+      "iteration": 1,
+      "errors": 0
+    }
+  },
+  {
+    "name": "agent.supervisor.span",
+    "payload": {
+      "name": "agent.supervisor",
+      "attributes": {},
+      "duration_seconds": 4.529999978331034e-05
+    }
+  },
+  {
+    "name": "researcher.done",
+    "payload": {
+      "num_sources": 5,
+      "notes_chars": 1001
+    }
+  },
+  {
+    "name": "agent.researcher.span",
+    "payload": {
+      "name": "agent.researcher",
+      "attributes": {},
+      "duration_seconds": 3.0082800999998653
+    }
+  },
+  {
+    "name": "supervisor.route",
+    "payload": {
+      "route": "analyst",
+      "iteration": 2,
+      "errors": 0
+    }
+  },
+  {
+    "name": "agent.supervisor.span",
+    "payload": {
+      "name": "agent.supervisor",
+      "attributes": {},
+      "duration_seconds": 3.9400000332534546e-05
+    }
+  },
+  {
+    "name": "analyst.done",
+    "payload": {
+      "analysis_chars": 1711
+    }
+  },
+  {
+    "name": "agent.analyst.span",
+    "payload": {
+      "name": "agent.analyst",
+      "attributes": {},
+      "duration_seconds": 4.0482059000000845
+    }
+  },
+  {
+    "name": "supervisor.route",
+    "payload": {
+      "route": "writer",
+      "iteration": 3,
+      "errors": 0
+    }
+  },
+  {
+    "name": "agent.supervisor.span",
+    "payload": {
+      "name": "agent.supervisor",
+      "attributes": {},
+      "duration_seconds": 1.810000003388268e-05
+    }
+  },
+  {
+    "name": "writer.done",
+    "payload": {
+      "answer_chars": 3461
+    }
+  },
+  {
+    "name": "agent.writer.span",
+    "payload": {
+      "name": "agent.writer",
+      "attributes": {},
+      "duration_seconds": 9.74011070000006
+    }
+  },
+  {
+    "name": "supervisor.route",
+    "payload": {
+      "route": "critic",
+      "iteration": 4,
+      "errors": 0
+    }
+  },
+  {
+    "name": "agent.supervisor.span",
+    "payload": {
+      "name": "agent.supervisor",
+      "attributes": {},
+      "duration_seconds": 1.9600000086938962e-05
+    }
+  },
+  {
+    "name": "critic.done",
+    "payload": {
+      "citation_coverage": 1.0,
+      "dangling": []
+    }
+  },
+  {
+    "name": "agent.critic.span",
+    "payload": {
+      "name": "agent.critic",
+      "attributes": {},
+      "duration_seconds": 0.0001077000001714623
+    }
+  },
+  {
+    "name": "supervisor.route",
+    "payload": {
+      "route": "done",
+      "iteration": 5,
+      "errors": 0
+    }
+  },
+  {
+    "name": "agent.supervisor.span",
+    "payload": {
+      "name": "agent.supervisor",
+      "attributes": {},
+      "duration_seconds": 1.52000002344721e-05
+    }
+  },
+  {
+    "name": "workflow.done",
+    "payload": {
+      "name": "workflow.run",
+      "attributes": {
+        "query": "How do critic and verifier agents improve the quality of research reports?"
+      },
+      "duration_seconds": 16.81460900000002
+    }
+  }
+]

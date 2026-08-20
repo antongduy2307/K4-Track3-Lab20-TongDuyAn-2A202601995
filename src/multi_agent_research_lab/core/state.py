@@ -16,6 +16,7 @@ class ResearchState(BaseModel):
     request: ResearchQuery
     iteration: int = 0
     route_history: list[str] = Field(default_factory=list)
+    started_at: float | None = None  # perf_counter timestamp set by the workflow for timeout guard
 
     sources: list[SourceDocument] = Field(default_factory=list)
     research_notes: str | None = None
